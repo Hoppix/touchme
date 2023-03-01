@@ -1,0 +1,6 @@
+/build
+/dist
+test.sh
+test.py
+venv
+*.egg-info
