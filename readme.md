@@ -30,7 +30,7 @@ Currently the following languages are supported:
 * *python*
     * [py](resources/python_template.py)
 * *shell*
-    * [sh](resources/shell_template.py)
+    * [sh](resources/shell_template.sh)
 
 
 #### 📦 Author 📦 
