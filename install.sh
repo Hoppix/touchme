@@ -11,7 +11,7 @@ main() {
     source venv/bin/activate
     pip -r requirements.txt
     python3 setup.py install
-
+    touchme --help
 }
 
 # call function with all given parameters

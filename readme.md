@@ -7,12 +7,11 @@ Just a simple project for me to play around with setup tools while getting some 
 ## Install 
 
 ``sh
-curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | sudo bash
+curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | bash
 ``
 
 ### Prerequisites
-* python v
-
+* python >= 3.9.10
 
 ## Usage
 
