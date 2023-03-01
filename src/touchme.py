@@ -7,12 +7,12 @@ import src.py.template as python_template
 import src.sh.template as shell_template
 import src.filechooser as filechooser
 
-logging.getLogger().setLevel(os.getenv("TOUCHSH_LOG_LEVEL", "INFO"))
+logging.getLogger().setLevel(os.getenv("touchme_LOG_LEVEL", "INFO"))
 
 parser = argparse.ArgumentParser(
-                    prog = 'touchsh',
+                    prog = 'touchme',
                     description="Utility to create a new script based on templates",
-                    epilog = 'Type: touchsh followed by a filename, example - touchsh test.sh or via flag touchsh -f test.sh')
+                    epilog = 'Type: touchme followed by a filename, example - touchme test.sh or via flag touchme -f test.sh')
 
 parser.add_argument('filename')
 parser.add_argument('-f', '--file', required=False) 
@@ -47,5 +47,5 @@ def main():
 
     
 if __name__ == "__main__":
-    logging.info("Running touchsh as python script")
+    logging.info("Running touchme as python script")
     main()

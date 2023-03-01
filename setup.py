@@ -6,7 +6,7 @@ install_requires = [
         ]
 
 setuptools.setup(
-    name="touchsh",
+    name="touchme",
     description="Utility to create a new script based on a shell script template",
     version="0.1",
     author="Kolja Hopfmann",
@@ -15,7 +15,7 @@ setuptools.setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'touchsh = src.touchsh:main',
+            'touchme = src.touchme:main',
         ],
     },
     include_package_data=True,

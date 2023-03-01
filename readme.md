@@ -1,4 +1,4 @@
-# TouchSH
+# touchme
 
 A simple python util for creating code templates        
 
@@ -16,10 +16,8 @@ Hoppix#2849
 
 #### Todo
 
-* setup git repo
 * modularize the filechooser
     * fix wrong file choosing
-* rename to touchme
 * write install script
     * make curl install script and add to readme
 * simplify adding more templates
