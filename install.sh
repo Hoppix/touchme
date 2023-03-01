@@ -8,11 +8,10 @@ main() {
     pushd
     git clone https://github.com/Hoppix/touchme/
     cd touchme
-    python3 -m pip install --user virtualenv
-    source venv/bin/activate
     pip -r requirements.txt
     python3 setup.py install
     touchme --help
+    popd
 }
 
 # call function with all given parameters
