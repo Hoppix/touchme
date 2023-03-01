@@ -14,9 +14,9 @@ curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | bash
 * python >= 3.9.10
 
 ## 🚀 Usage 🚀
-Type: touchme followed by a filename, example - touchme test.sh or via flag touchme -f test.sh
+Type: touchme followed by a filename, example - touchme test.sh or via flag touchme -f test.sh      
 ``sh
-touchme test.
+touchme test.sh 
 touchme test.py
 ``
 
