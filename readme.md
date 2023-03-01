@@ -19,6 +19,11 @@ Type: touchme followed by a filename, example - touchme test.sh or via flag touc
 touchme test.sh     
 touchme test.py
 ```
+Or with file flag:      
+```sh
+touchme -f test.sh     
+touchme -f test.py
+```
 
 #### 📦 Author 📦 
 Discord: Hoppix#6723
