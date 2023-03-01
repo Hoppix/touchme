@@ -15,10 +15,10 @@ curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | bash
 
 ## 🚀 Usage 🚀
 Type: touchme followed by a filename, example - touchme test.sh or via flag touchme -f test.sh      
-``sh
+```sh
 touchme test.sh     
 touchme test.py
-``
+```
 
 #### 📦 Author 📦 
 Discord: Hoppix#6723
