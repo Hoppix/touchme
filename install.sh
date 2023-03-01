@@ -5,6 +5,7 @@
 cd "$(dirname "$0")"
 
 main() {
+    pushd
     git clone https://github.com/Hoppix/touchme/
     cd touchme
     python3 -m pip install --user virtualenv

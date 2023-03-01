@@ -27,8 +27,11 @@ touchme -f test.py
 
 ####
 Currently the following languages are supported:        
-* *python - py*
-* *shell - sh*
+* *python*
+    * [py](resources/python_template.py)
+* *shell*
+    * [sh](resources/shell_template.py)
+
 
 #### 📦 Author 📦 
 Discord: Hoppix#6723
