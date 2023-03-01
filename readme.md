@@ -25,6 +25,11 @@ touchme -f test.sh
 touchme -f test.py
 ```
 
+####
+Currently the following languages are supported:        
+* *python - py*
+* *shell - sh*
+
 #### 📦 Author 📦 
 Discord: Hoppix#6723
 
