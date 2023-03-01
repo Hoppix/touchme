@@ -3,11 +3,9 @@
 import os
 import logging
 import argparse
-import src.py.template as python_template
-import src.sh.template as shell_template
 import src.filechooser as filechooser
 
-logging.getLogger().setLevel(os.getenv("touchme_LOG_LEVEL", "INFO"))
+logging.getLogger().setLevel(os.getenv("TOUCHME_LOG_LEVEL", "DEBUG"))
 
 parser = argparse.ArgumentParser(
                     prog = 'touchme',
@@ -30,12 +28,12 @@ def main():
 
     logging.info(f"Creating new script in {current_directory} with name {filename}")
     full_path = f"{current_directory}/{filename}"
-    template = python_template if filename.endswith("py") else shell_template
+    template = filechooser.get_template(filename)
 
     try:
         os.makedirs(os.path.dirname(full_path), exist_ok=True)
         with open(full_path, 'w+') as fp:
-            fp.write(template.content)
+            fp.write(template)
             pass
     except Exception as e:
         logging.error(f"File: {filename} could not be created. For more info use the -d / --debug option")
