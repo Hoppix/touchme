@@ -5,7 +5,14 @@ A simple python util for creating code templates
 Just a simple project for me to play around with setup tools while getting some nifty QoL utility.
 
 ## Install 
-python setup.py install
+
+``sh
+curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | sudo bash
+``
+
+### Prerequisites
+* python v
+
 
 ## Usage
 
