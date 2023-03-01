@@ -16,8 +16,6 @@ Hoppix#2849
 
 #### Todo
 
-* modularize the filechooser
-    * fix wrong file choosing
 * write install script
     * make curl install script and add to readme
 * simplify adding more templates
@@ -27,3 +25,4 @@ Hoppix#2849
 * write tests .... for filechooser ;_;
 * write build script
     * optional: github actions
+* add requirements
