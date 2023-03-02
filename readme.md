@@ -6,7 +6,7 @@ Just a simple project for me to play around with setup tools while getting some 
 
 ## 🔧 Install 🔧
 
-``bash
+``
 curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | bash
 ``
 
