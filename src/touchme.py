@@ -5,7 +5,7 @@ import logging
 import argparse
 import src.filechooser as filechooser
 
-logging.getLogger().setLevel(os.getenv("TOUCHME_LOG_LEVEL", "DEBUG"))
+logging.getLogger().setLevel(os.getenv("TOUCHME_LOG_LEVEL", "INFO"))
 
 parser = argparse.ArgumentParser(
                     prog = 'touchme',
