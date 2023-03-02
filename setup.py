@@ -11,7 +11,7 @@ setuptools.setup(
     description="Utility to create a new script based on a template",
     version="0.1",
     author="Kolja Hopfmann",
-    author_email="",
+    author_email="k.hopfmann@hotmail.de",
     packages=setuptools.find_packages(),
     install_requires=install_requires,
     entry_points={
