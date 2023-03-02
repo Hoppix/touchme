@@ -8,7 +8,7 @@ main() {
     pushd
     git clone https://github.com/Hoppix/touchme/
     cd touchme
-    pip -r requirements.txt
+    pip install -r requirements.txt
     python3 setup.py install
     touchme --help
     popd
