@@ -6,7 +6,7 @@ Just a simple project for me to play around with setup tools while getting some 
 
 ## 🔧 Install 🔧
 
-Just simply curl and pipe the (install script)[install.sh]
+Just simply curl and pipe the [install script](install.sh)     
 ``
 curl https://raw.githubusercontent.com/Hoppix/touchme/main/install.sh | bash
 ``
